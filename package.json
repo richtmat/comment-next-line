@@ -1,0 +1,14 @@
+{
+  "name": "comment-next-line",
+  "main": "./lib/comment-next-line",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationEvents": ["comment-next-line:comment-down"],
+  "repository": "https://github.com/atom/comment-next-line",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

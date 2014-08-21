@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable comment-next-line': 'comment-next-line:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'comment-next-line'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'comment-next-line:toggle' }
+      ]
+    ]
+  }
+]
